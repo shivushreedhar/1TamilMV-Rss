@@ -13,7 +13,7 @@ USER_SESSION = os.getenv("USER_SESSION", "BQD1RHkAWE0_hYeF0aYArWXqouTiPJZ9CQnZSI
 
 # Web
 PORT = int(os.getenv("PORT", "8080")) 
-URL = os.getenv("URL", "") # Heroku or Koyeb Or Render Base Url 
+URL = os.getenv("URL", "https://tmv-rss-213001577ae6.herokuapp.com/") # Heroku or Koyeb Or Render Base Url 
 
 # MongoDB
 DATABASE_URL = os.getenv("DATABASE_URL", "mongodb+srv://bsadmin:bsadmin12@cluster0.anisucu.mongodb.net/?appName=Cluster0") #Mongodb Url 
@@ -24,7 +24,7 @@ TMV_URL = os.getenv("TMV_URL", "https://www.1tamilmv.land/")
 TMV_TORRENT = int(os.getenv("TMV_TORRENT", "-1003502593324"))
 TMV_LEECH_GRP = int(os.getenv("TMV_LEECH_GRP", ""))
 TMV_MIRROR_GRP = int(os.getenv("TMV_MIRROR_GRP", ""))
-TMV_TORRENT_THUMB = os.getenv("TMV_TORRENT_THUMB", "https://i.ibb.co/7dq7mMLp/photo-2025-10-18-16-42-28-7562603128038621216.jpg") #torrant Pic
+TMV_TORRENT_THUMB = os.getenv("TMV_TORRENT_THUMB", "https://graph.org/file/36f6cd17e608fdaa60074-a46133c3f65a9bc8ec.jpg") #torrant Pic
 BOT_TAG = os.getenv("BOT_TAG", "@BSHEGDE5") # File Prefix
 
 # Internal
