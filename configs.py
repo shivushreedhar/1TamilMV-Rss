@@ -6,9 +6,9 @@ from dotenv import load_dotenv
 load_dotenv()  # Load from .env file
 
 # Telegram
-API_ID = int(os.getenv("API_ID", ""))
-API_HASH = os.getenv("API_HASH", "")
-USER_SESSION = os.getenv("USER_SESSION", "") # Use Pyrogram V2 String Session 
+API_ID = int(os.getenv("API_ID", "16073849"))
+API_HASH = os.getenv("API_HASH", "e84dd69cd0504b8b45b2fd6a4e19068d")
+USER_SESSION = os.getenv("USER_SESSION", "BQD1RHkAWE0_hYeF0aYArWXqouTiPJZ9CQnZSIoQzeM2rxRzbubMFNHWttI5BXhZOKi6KpbpxihRuNWQXYNzH97YangznwgiVZy9w5aEt0jks5KS61a4vRKdw4lD4efqCrT-IA3MU6UR_3XuqFxaKaNcCHdWdMfuAnkqHSDmMx2cNEqRTnU1_2b9CpioOr4_6EDfJPopmxSbH8AuyR1-XqnAKvNJnKpS6XDiBpQAetoJ82gmBCWrBF7j2puPd09JekAnhtMLp9uEiTgdlW3hdlfenBKI5066SdQ_-20c9807-NXcYL0OuZWvNbmv_Y4cm4CYE0Qs-rBX-Ep2EAbziS6GsRN4dgAAAAFJ-SbtAA") # Use Pyrogram V2 String Session 
 #if you don't have string Gen bot - use it my bot @SMD_StringBot
 
 # Web
@@ -16,16 +16,16 @@ PORT = int(os.getenv("PORT", "8080"))
 URL = os.getenv("URL", "") # Heroku or Koyeb Or Render Base Url 
 
 # MongoDB
-DATABASE_URL = os.getenv("DATABASE_URL", "") #Mongodb Url 
-DATABASE_NAME = os.getenv("DATABASE_NAME", "") # example Cluster0
+DATABASE_URL = os.getenv("DATABASE_URL", "mongodb+srv://bsadmin:bsadmin12@cluster0.anisucu.mongodb.net/?appName=Cluster0") #Mongodb Url 
+DATABASE_NAME = os.getenv("DATABASE_NAME", "Cluster0") # example Cluster0
 
 # TamilMV settings
 TMV_URL = os.getenv("TMV_URL", "https://www.1tamilmv.land/")
-TMV_TORRENT = int(os.getenv("TMV_TORRENT", ""))
+TMV_TORRENT = int(os.getenv("TMV_TORRENT", "-1003502593324"))
 TMV_LEECH_GRP = int(os.getenv("TMV_LEECH_GRP", ""))
 TMV_MIRROR_GRP = int(os.getenv("TMV_MIRROR_GRP", ""))
 TMV_TORRENT_THUMB = os.getenv("TMV_TORRENT_THUMB", "https://i.ibb.co/7dq7mMLp/photo-2025-10-18-16-42-28-7562603128038621216.jpg") #torrant Pic
-BOT_TAG = os.getenv("BOT_TAG", "@SMD_BOTz") # File Prefix
+BOT_TAG = os.getenv("BOT_TAG", "@BSHEGDE5") # File Prefix
 
 # Internal
 PING_INTERVAL = int(os.getenv("PING_INTERVAL", "120"))
