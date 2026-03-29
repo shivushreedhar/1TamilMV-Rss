@@ -22,7 +22,7 @@ DATABASE_NAME = os.getenv("DATABASE_NAME", "Cluster0") # example Cluster0
 # TamilMV settings
 TMV_URL = os.getenv("TMV_URL", "https://www.1tamilmv.land/")
 TMV_TORRENT = int(os.getenv("TMV_TORRENT", "-1003502593324"))
-TMV_LEECH_GRP = int(os.getenv("TMV_LEECH_GRP", ""))
+TMV_LEECH_GRP = int(os.getenv("TMV_LEECH_GRP", "-1003679562362"))
 TMV_MIRROR_GRP = int(os.getenv("TMV_MIRROR_GRP", ""))
 TMV_TORRENT_THUMB = os.getenv("TMV_TORRENT_THUMB", "https://graph.org/file/36f6cd17e608fdaa60074-a46133c3f65a9bc8ec.jpg") #torrant Pic
 BOT_TAG = os.getenv("BOT_TAG", "@BSHEGDE5") # File Prefix
